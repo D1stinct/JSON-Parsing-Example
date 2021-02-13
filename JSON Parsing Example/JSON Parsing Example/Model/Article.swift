@@ -1,0 +1,20 @@
+//
+//  Post.swift
+//  JSON Parsing Example
+//
+//  Created by Veer Patel on 13/02/2021.
+//
+
+import Foundation
+
+struct Article: Codable {
+    
+    var author: String? 
+    var title: String?
+    var description: String?
+    var url: String?
+    var urlToImage: String?
+    var publishedAt: String?
+    var content: String?
+    
+}
